@@ -21,4 +21,13 @@
 </form>
 
 <br/>
-<a href="recursiveDirectory.php">Go to Recursive Directory</a>;
+
+<form name="fibo" method="POST" action="recursiveDirectory.php">
+
+    Enter a path
+    <input type="text" name="path" value="<?php echo dirname(__FILE__); ?>" />
+    <input type="submit" value="Send" />
+</form>
+
+
+<!--<a href="recursiveDirectory.php">Go to Recursive Directory</a>;-->
